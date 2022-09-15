@@ -1,0 +1,62 @@
+DATASOURCE 1:
+
+The amount of profit lost by returns: https://public.tableau.com/shared/JFD2PZPCR?:display_count=n&:origin=viz_share_link 
+steps:
+1- Assure the Orders table is joined to the Returns table on Order ID
+2- Assure that the Orders table is joined to the People table on the Region
+3- drag the lattitude to the rows and the longtidue to the columns
+4- add the country as a detail and the profit as a color in the marks table
+
+The number of orders per market: https://public.tableau.com/views/practice1_16624909343450/numberoforderspermarket?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- add the market to the columns shelf
+2- add the profit to the rows shelf
+
+The shipping cost to profit per category per market: https://public.tableau.com/views/practice2_16624953666140/thecosttoprofitpercategorypermarket?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- bring the cost to the columns shelf
+2- bring the profit to the rows shelf
+3- bring the market to the shape
+4 bring the category to the color
+
+the months that wittnessed a drop in sales compared to the month before it: https://public.tableau.com/views/practice3_16625037905560/salesdiffbetweeneachmonthandthemonthbeforeit?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps: 
+1- convert the order date to continous
+2- brind the date to the column shelf(month)
+3- create calculated field diff " SUM([Sales]) - LOOKUP(ZN(SUM([Sales])), -1) " and place it in the row shelf
+4- add the diff to the filter shelf and make it at most to 0
+
+the total profit for each individual market sector categorized by the main three sectors in 2014: https://public.tableau.com/views/practice4_16627614862870/Sheet5?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- drag the region to the columns 
+2- drag the category and the profit to the rows
+3- add the year to the filter 
+4- add the sub_category to the colors in the marks table 
+5 sort the data
+
+the total profit for each products category for each region: https://public.tableau.com/views/practice5_16631989476450/Sheet8?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- drag the profit to the columns shelf
+2- drag the sub-category and the region to the rows shelf
+3- add the sub-category to the filters shelf for specific results
+
+The total profit from selling tables in each country: https://public.tableau.com/views/practice6_16631995752290/Sheet11?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- drag the longitude to the columns
+2- drag the latitude to the rows
+3- add the profit to the colors in the marks table
+4- add the country to the detail in the marks table
+4- add the sub-categor to the filters and select only tables
+
+A visualisation for all the measures for each products category for each region: https://public.tableau.com/views/practice7_16632001219610/Sheet11?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- drag the category into the columns
+2- drag the measures values to the rows 
+3- from the show me choose side by side circules
+
+the amount of negative and positive profit for each sub-category: https://public.tableau.com/views/practice8_16632015416760/Sheet12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+steps:
+1- from the product name create a set where the profit is < 0
+2- add the profit to the columns
+3- add the category and the sub category to the rows
+4- add the created set to the colors in the marks table

@@ -1,0 +1,1 @@
+global-superstore (DATASOURCE1): The data set consists of transaction records for the Global Superstore, as well as returns, and a list of the members of the sales team.
